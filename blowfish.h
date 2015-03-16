@@ -20,8 +20,8 @@ typedef unsigned char BYTE;             // 8-bit byte
 typedef unsigned int  WORD;             // 32-bit word, change to "long" for 16-bit machines
 
 typedef struct {
-   WORD p[18];
-   WORD s[4][256];
+    WORD p[18];
+    WORD s[4][256];
 } BLOWFISH_KEY;
 
 /*********************** FUNCTION DECLARATIONS **********************/

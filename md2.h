@@ -19,10 +19,10 @@
 typedef unsigned char BYTE;             // 8-bit byte
 
 typedef struct {
-   BYTE data[16];
-   BYTE state[48];
-   BYTE checksum[16];
-   int len;
+    BYTE data[16];
+    BYTE state[48];
+    BYTE checksum[16];
+    int len;
 } MD2_CTX;
 
 /*********************** FUNCTION DECLARATIONS **********************/
